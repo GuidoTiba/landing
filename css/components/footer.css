@@ -22,7 +22,7 @@
 .footer p {
   font-size: 1.2vw;
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .footer p {
     font-size: 12px;
   }
