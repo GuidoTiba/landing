@@ -1,0 +1,37 @@
+.banner {
+  height: 380px;
+  width: 100%;
+  background-position: bottom;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner h1 {
+  font-size: 2vw;
+}
+.banner p {
+  font-size: 1.5vw;
+}
+.banner-btn {
+  background-color: rgba(255, 255, 255, 0.9);
+  font-size: 1.5vw;
+  border-radius: 20px;
+  color: #739DB7;
+  padding: 10px 20px;
+  position: relative;
+  top: 20px;
+}
+.banner-btn:hover {
+  background-color: white;
+}
+
+@media (max-width: 600px) {
+  .banner h1 {
+    font-size: 15px;
+  }
+  .banner p {
+    font-size: 12px;
+  }
+}

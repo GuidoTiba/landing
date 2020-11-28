@@ -1,0 +1,45 @@
+.card {
+  width: 27%;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  border: 1px solid rgb(230,230,230);
+  padding: 10px 0;
+  background-color: white;
+}
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px auto;
+  width: 85%;
+}
+.card img{
+  height: 10vw;
+}
+.card h3 {
+  font-size: 1.7vw;
+}
+.card p{
+  color: rgb(114, 114, 114);
+  font-size: 1.2vw;
+}
+.card:hover {
+  box-shadow: 0 2px 55px rgb(230,230,230);
+  border: 1px solid rgb(212, 212, 212);
+}
+
+@media (max-width: 600px) {
+  .card-container {
+    display: block;
+  }
+  .card {
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  .card h3 {
+    font-size: 2.5vw;
+  }
+  .card p{
+    color: rgb(114, 114, 114);
+    font-size: 1.8vw;
+  }
+}

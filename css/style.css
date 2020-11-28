@@ -1,0 +1,31 @@
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+@import url("components/banner.css");
+
+@import url("components/footer.css");
+
+@import url("components/card.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  background-color: rgb(251, 251, 251);
+}
+
+h1, h2, h3, h4, p, a {
+  font-family: 'Maven Pro';
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Custom design below! */
+
